@@ -13,8 +13,10 @@ const styles = {
     paddingBottom: 30,
   },
   logoLogin: {
-      alignSelf: 'center',
-      alignItems: 'center',
+    width: 200,
+    height: 200,
+    alignSelf: 'center',
+    alignItems: 'center',
   },
   viewForm: {
     alignSelf: 'center',

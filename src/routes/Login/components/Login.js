@@ -25,7 +25,7 @@ class Login extends React.Component {
           </View>
           <View style={{width: Layout.width-20, marginTop: 10, paddingHorizontal: 20 }}>
             <Item style={{borderColor: Colors.primary}}>
-               <Input secureTextEntry={true} onChangeText={(val) => this.setState({password: val})} placeholder="Password" />
+               <Input secureTextEntry={false} onChangeText={(val) => this.setState({password: val})} placeholder="NISN" />
              </Item>
           </View>
         </View>

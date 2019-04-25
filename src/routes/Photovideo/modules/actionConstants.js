@@ -1,0 +1,3 @@
+export default {
+  GET_PHOTOVIDEO_USER:"GET_PHOTOVIDEO_USER"
+}

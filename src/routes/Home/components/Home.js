@@ -1,9 +1,8 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { Container, Content, Card, CardItem, Body } from 'native-base';
-import HeaderComponent from '../../../components/HeaderComponent/index';
-import FooterComponent from '../../../components/FooterComponent/index';
-import { Config } from '../../../constants/index';
+import { Container, Header, Left, Right, Content, Card, CardItem, Body, Button } from 'native-base';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import { Colors, Config } from '../../../constants/index';
 import styles from './homeStyles';
 
 class Home extends React.Component{
@@ -15,7 +14,17 @@ class Home extends React.Component{
   render(){
     return(
       <Container>
-        <HeaderComponent logo={Config.LOGOMEDIUMWHITE}/>
+        <Header style={{backgroundColor: Colors.primary}} androidStatusBarColor={Colors.primary}>
+          <Left style={{flex: 1}} />
+          <Body>
+            <Image source={Config.LOGOMEDIUMWHITE} resizeMode="contain" style={styles.logo} />
+          </Body>
+          <Right>
+            <Button transparent onPress={() => this.props.navigation.navigate('Message')}>
+              <Icon name="comments" style={styles.icon} />
+            </Button>
+          </Right>
+        </Header>
         <Content padder>
           <View>
             <Text style={styles.textAnnounce}>Announcements</Text>
@@ -80,7 +89,6 @@ class Home extends React.Component{
             </CardItem>
           </Card>
         </Content>
-        <FooterComponent />
       </Container>
     );
   }

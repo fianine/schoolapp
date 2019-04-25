@@ -1,0 +1,3 @@
+export default {
+  GET_CALENDAR_USER:"GET_CALENDAR_USER"
+}

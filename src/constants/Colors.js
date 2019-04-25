@@ -1,5 +1,5 @@
 const Colors = {
-  primary: '#00BCC3', //Header Color
+  primary: '#F49F0A', //Header Color
   loginGradientStart: '#5CEEF3', //Login Page
   loginGradientEnd: '#00BCC3', //Login Page
   white: '#ffffff',

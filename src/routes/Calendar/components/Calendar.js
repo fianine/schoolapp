@@ -12,11 +12,12 @@ class Calendar extends React.Component{
     this.state = {
       tableHead: ['Kegiatan', 'Tanggal'],
       tableData: [
-        ['Kegiatan 1', '4 Maret 2019'],
-        ['Kegiatan 2', '5 Maret 2019'],
-        ['Kegiatan 3', '6 Maret 2019'],
-        ['Kegiatan 4', '7 Maret 2019'],
-        ['Kegiatan 5', '8 Maret 2019'],
+        ['Workshop Class Be Kids Conference', '4 Maret 2019'],
+        ['Free Trial Class', '5 Maret 2019'],
+        ['Fun Day anak Primary', '6 Maret 2019'],
+        ['Fun Day Toddler', '7 Maret 2019'],
+        ['Kindergarten 1', '8 Maret 2019'],
+        ['Kindergarten 2', '9 Maret 2019'],
       ]
     }
   }

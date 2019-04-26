@@ -31,7 +31,7 @@ class Home extends React.Component{
           </View>
           <Card>
             <CardItem header bordered>
-              <Text>Announcement 1</Text>
+              <Text>Perayaan HUT RI ke 71</Text>
             </CardItem>
             <CardItem bordered>
               <Body>
@@ -47,7 +47,7 @@ class Home extends React.Component{
 
           <Card>
             <CardItem header bordered>
-              <Text>Announcement 2</Text>
+              <Text>Nafiri Kids School</Text>
             </CardItem>
             <CardItem bordered>
               <Body>
@@ -72,7 +72,7 @@ class Home extends React.Component{
 
           <Card>
             <CardItem header bordered>
-              <Text>Announcement 3</Text>
+              <Text>Fun Day</Text>
             </CardItem>
             <CardItem bordered>
               <Body>

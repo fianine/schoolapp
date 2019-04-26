@@ -8,20 +8,15 @@ import { FlatGrid } from 'react-native-super-grid';
 
 class Photovideo extends React.Component{
   render(){
-    // const items = [
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    // ];
     const items = [
       { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/jC7SsI8.jpg' },
       { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/Vl05Mzr.jpg' },
       { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/6KVxdQJ.jpg' },
       { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/gEEt0YL.jpg' },
       { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/0bxBPbV.jpg' },
+      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/ZREwB8y.jpg' },
+      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/L8rJaNV.jpg' },
+      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/otRx8N1.jpg' },
     ];
     return(
       <Container>
@@ -41,6 +36,9 @@ class Photovideo extends React.Component{
           </Right>
         </Header>
         <Content>
+          <View>
+            <Text style={styles.textPhoto}>Gallery</Text>
+          </View>
           <View>
             <FlatGrid
               itemDimension={130}

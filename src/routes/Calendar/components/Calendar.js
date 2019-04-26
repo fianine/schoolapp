@@ -41,6 +41,9 @@ class Calendar extends React.Component{
           </Right>
         </Header>
         <Content>
+          <View>
+            <Text style={styles.textCalendar}>Academic Calendar</Text>
+          </View>
           <View style={styles.container}>
             <Table borderStyle={{borderWidth: 2, borderColor: '#F49F0A'}}>
               <Row data={state.tableHead} style={styles.head} textStyle={styles.text}/>

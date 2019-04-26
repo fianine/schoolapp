@@ -23,22 +23,30 @@ const styles = StyleSheet.create({
   },
   itemContainer: {
     justifyContent: 'flex-end',
+    alignItems: 'center',
     borderRadius: 5,
     paddingTop: -100,
-    height: 120,
+    height: 125,
     marginTop: 70,
     marginBottom: -25
   },
   itemName: {
     fontSize: 16,
-    color: '#fff',
+    color: '#555',
     fontWeight: '600',
   },
   itemCode: {
     fontWeight: '600',
     fontSize: 12,
     color: '#fff',
-  }
+  },
+  textPartner:{
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginTop: 20,
+    marginLeft: 15,
+    marginBottom: -30
+  },
 });
 
 export default styles;

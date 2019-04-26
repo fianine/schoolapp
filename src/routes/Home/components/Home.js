@@ -36,11 +36,7 @@ class Home extends React.Component{
             <CardItem bordered>
               <Body>
                 <Text>
-                  NativeBase is a free and open source framework that enable
-                  developers to build
-                  high-quality mobile apps using React Native iOS and Android
-                  apps
-                  with a fusion of ES6.
+                  Perayaan HUT RI ke 71 di Nafiri Study Center. Anak-anak diajarkan untuk mencintai dan menghidupi semangat Nasionalisme dengan berbagai aktivitas, yakni Upacara Bendera, membuat berbagai macam kreativitas Bendera Merah Putih, Lomba, hingga Pawai Kemerdekaan. Kegiatan ini diikuti oleh siswa dan siswi mulai umur 2 tahun hingga 16 tahun.
                 </Text>
               </Body>
             </CardItem>
@@ -56,11 +52,16 @@ class Home extends React.Component{
             <CardItem bordered>
               <Body>
                 <Text>
-                  NativeBase is a free and open source framework that enable
-                  developers to build
-                  high-quality mobile apps using React Native iOS and Android
-                  apps
-                  with a fusion of ES6.
+                  Nafiri Kids School mengadakan tes Finger's Print, Kamis, 27 November 2014
+                </Text>
+                <Text>
+                  Pukul 08.00-13.00 ( disesuaikan dengan jam belajar )
+                </Text>
+                <Text>
+                  Paket I : untuk mengetahui gaya belajar anak dan Multiple Intelligent
+                </Text>
+                <Text>
+                  Paket II : untuk mengetahui gaya belajar, Multiple Intelligent, otak kiri/kanan, motivasi, karakter, gaya kerja, respon stress
                 </Text>
               </Body>
             </CardItem>
@@ -76,11 +77,7 @@ class Home extends React.Component{
             <CardItem bordered>
               <Body>
                 <Text>
-                  NativeBase is a free and open source framework that enable
-                  developers to build
-                  high-quality mobile apps using React Native iOS and Android
-                  apps
-                  with a fusion of ES6.
+                  Fun Day anak Primary, Secondary, dan High School ke Monumen Nasional. Jumat, 26 Agustus 2016.
                 </Text>
               </Body>
             </CardItem>

@@ -8,20 +8,11 @@ import { FlatGrid } from 'react-native-super-grid';
 
 class Partnership extends React.Component{
   render(){
-    // const items = [
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/jC7SsI8.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    //   { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' }, { name: 'TURQUOISE', code: '#1abc9c', image: 'https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg' },
-    // ];
     const items = [
-      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/jC7SsI8.jpg' },
-      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/Vl05Mzr.jpg' },
-      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/6KVxdQJ.jpg' },
-      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/gEEt0YL.jpg' },
-      { name: 'TURQUOISE', code: '#1abc9c', image: 'https://i.imgur.com/0bxBPbV.jpg' },
+      { name: 'Parenting', image: 'https://i.imgur.com/OSpshdJ.jpg' },
+      { name: 'Bahasa Kasih', image: 'https://i.imgur.com/EsXKPnD.jpg' },
+      { name: 'Nafiri Kids', image: 'https://i.imgur.com/04f5zVM.jpg' },
+      { name: 'Education 4.0', image: 'https://i.imgur.com/BM1VAjT.jpg' }
     ];
     return(
       <Container>
@@ -42,6 +33,9 @@ class Partnership extends React.Component{
         </Header>
         <Content>
           <View>
+            <Text style={styles.textPartner}>Partnership</Text>
+          </View>
+          <View>
             <FlatGrid
               itemDimension={130}
               items={items}
@@ -50,7 +44,6 @@ class Partnership extends React.Component{
                 <View style={[styles.itemContainer]}>
                   <Thumbnail source={{uri : item.image}} style={{width: 150, height: 150}}/>
                   <Text style={styles.itemName}>{item.name}</Text>
-                  <Text style={styles.itemCode}>{item.code}</Text>
                 </View>
               )}
             />
